@@ -18,8 +18,6 @@ export const updateSearchString = (payload) => ({
 });
 
 const reducer = (state, action) => {
-	state.searchString = '';
-
 	switch (action.type) {
 		case 'ADD_COLUMN':
 			return {
