@@ -12,8 +12,8 @@
 
 	a {
 		padding: 0 8px;
-		color: $color-light;
 		text-decoration: none;
+		color: $color-light;
 		font-family: $font-text;
 		font-size: ($base-size * 1.6);
 		font-weight: 800;
@@ -23,8 +23,17 @@
 .navbar {
 	background-color: darken($color-dark, 3%);
 	padding: 1px;
+
+	ul {
+		list-style: none;
+		margin: 0;
+	}
 }
 
 .navLinks {
 	display: flex;
+}
+
+.linkActive {
+	color: $color-warning !important;
 }
