@@ -27,9 +27,9 @@ export const getListById = ({ lists }, listId) =>
 export const getColumnsByList = ({ columns }, listId) =>
 	columns.filter((column) => column.listId === listId);
 
-export const getAllLists = ({ lists }) => {
-	return lists;
-};
+export const getAllLists = ({ lists }) => lists;
+
+export const getSearchString = ({ searchString }) => searchString;
 
 const reducer = (state, action) => {
 	switch (action.type) {

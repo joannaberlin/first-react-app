@@ -11,3 +11,9 @@
 	justify-content: space-between;
 	font-weight: bold;
 }
+
+.btnFavorite {
+	border: none;
+	background-color: $color-light;
+	cursor: pointer;
+}

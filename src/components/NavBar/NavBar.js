@@ -7,9 +7,10 @@ const NavBar = () => {
 		<nav className={styles.navbar}>
 			<Container>
 				<div className={styles.navElements}>
-					<a href='/'>
+					<NavLink to='/'>
 						<i className='fa fa-tasks'></i>
-					</a>
+					</NavLink>
+
 					<ul className={styles.navLinks}>
 						<li>
 							<NavLink
