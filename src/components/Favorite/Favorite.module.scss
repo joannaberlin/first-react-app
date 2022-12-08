@@ -16,6 +16,11 @@
 	padding: math.div($base-size, 2) 0;
 }
 
+h2 {
+	text-align: center;
+	font-size: $base-size * 3;
+}
+
 @media (max-width: 767px) {
 	.column {
 		width: 100%;

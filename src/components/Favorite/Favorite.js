@@ -7,6 +7,7 @@ import Card from '../Card/Card';
 const Favorite = () => {
 	const favoriteCards = useSelector((state) => getFavoriteCards(state));
 
+	if (favoriteCards.length === 0) return <h2>No cards ...</h2>;
 	return (
 		<article>
 			<PageTitle>Favorite</PageTitle>
